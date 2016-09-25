@@ -99,7 +99,9 @@ function fetchItems(playlistId, pageToken, current_items){
 
 
 function workPlaylist(p, items){
-    console.log('playlist ', p.id);//, 'items: ', items);
+    console.log('playlist ', p.id, '; items: ', items);
+    //show playlists with only one item
+    //if(items.length < 2){ console.log("https://www.youtube.com/playlist?list="+p.id); }
 };
 
 
